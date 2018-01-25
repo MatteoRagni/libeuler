@@ -28,6 +28,7 @@ subplot(2,1,1);
 subplot(2,1,2);
   plot(eulere(:,1), eulere(:,4), 'r-', 'displayname', 'explicit');
   hold on;
+  plot(eulerm(:,1), eulerm(:,4), 'g-', 'displayname', 'simulink');
   plot(euleri(:,1), euleri(:,4), 'k-', 'displayname', 'implicit');
   ylabel('x_2');
   yyaxis right;
@@ -62,6 +63,7 @@ subplot(2,1,2);
   plot(eulere(:,1), eulere(:,2), '--', 'displayname', 'u');
   ylabel('u');
   ylim([4,11]);
+  xlabel('t');  
   grid on;
-  
+
   
