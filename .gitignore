@@ -38,7 +38,7 @@
 *.mexw32
 *.mexw64
 *.slx
-*spljr*
+test/slprj*
 
 .vscode
 eulere\.csv
